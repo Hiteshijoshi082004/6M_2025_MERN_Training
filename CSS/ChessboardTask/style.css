@@ -1,0 +1,448 @@
+body{
+    background-color:rgb(129, 199, 223);
+}
+.mainbox{
+    height:800px;
+    width:800px;
+    background-color:rgb(204, 35, 35);
+    border:25px solid grey;
+    margin-left:250px;
+    margin-right:250px;
+}
+.row1{
+    height:100px;
+    background-color:brown;
+}
+.col1{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.rook{
+    border:20px solid transparent;
+    height: 60px;
+    width: 60px;
+    margin-top:7px;
+}
+.col2{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.horse{
+    margin-left:15px;
+    margin-top:7px;
+}
+.col3{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.bishop{
+    border:10px solid transparent;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.col4{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.queen{
+    border: 10px solid transparent;
+    margin-top:8px;
+}
+.col5{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.king{
+    border: 10px solid transparent;
+    margin-top:8px;
+}
+.col6{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.bishop2{
+    border: 10px solid transparent;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.col7{
+    height:100px;
+    background-color:white;
+    width:100px;;
+    float:left
+}
+.horse2{
+    border: 10px solid transparent;
+    margin-top: 6px;
+}
+.col8{
+    height:100px;
+    background-color:black;
+    width: 100px;
+    float:left;
+}
+.rook2{
+    border:20px solid transparent;
+    height: 60px;
+    width: 60px;
+    margin-top:7px;
+}
+.col9{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.p1{
+    border: 10px solid transparent;
+    margin-left:5px;
+    margin-top:7px;
+}
+.p2{
+    border: 10px solid transparent;
+    margin-left:5px;
+    margin-top:7px;
+}
+.col10{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col11{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col12{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col13{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col14{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col15{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col16{
+    height:100px;
+    background-color:white;
+    width: 100px;
+    float:left;
+}
+.col17{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.col18{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.col19{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.col20{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.col21{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.col22{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.col23{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col24{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.col25{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col26{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col27{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col28{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col29{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col30{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col31{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col32{
+    height:100px;
+    background-color:white;
+    width: 100px;
+    float:left;
+}
+.col33{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.col34{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.col35{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.col36{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.col37{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.col38{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.col39{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.col40{
+    height:100px;
+    background-color:black;
+    width: 100px;
+    float:left;
+}
+.col41{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col42{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col43{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col44{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col45{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col46{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col47{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col48{
+    height:100px;
+    background-color:white;
+    width: 100px;
+    float:left;
+}
+.col49{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.col50{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.col51{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.col52{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.col53{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.col54{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left;
+}
+.col55{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left
+}
+.col56{
+    height:100px;
+    background-color:black;
+    width: 100px;
+    float:left;
+}
+.col57{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col58{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col59{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col60{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col61{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col62{
+    height:100px;
+    background-color:white;
+    width:100px;
+    float:left;
+}
+.col63{
+    height:100px;
+    background-color:black;
+    width:100px;
+    float:left
+}
+.col64{
+    height:100px;
+    background-color:white;
+    width: 100px;
+    float:left;
+}
