@@ -42,10 +42,10 @@
 .large-rectangle {
     width: 60px; 
     height: 80px; 
-    background-color: lightblue; 
+    background-color: none; 
     border: 2px solid black; 
     position: absolute;
-    bottom:-9px;
+    bottom:-13px;
     left: 50%; 
     transform: translateX(-50%);
 }
