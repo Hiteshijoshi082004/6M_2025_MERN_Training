@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/Zomato_logo.png">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Main div -->
+    <div class="main">
+        <!-- Img div -->
+        <div class="image">
+            <header>
+                <!-- top information -->
+                <nav class="nav1">
+                <!-- links -->
+                <a class="app" href="#">Get the App</a>
+                <ul>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Add Resturant</a></li>
+                    <li>
+                        <img src="images/letter-j.png">
+                    </li>
+                    <li>
+                        <!-- dropdown of janki profile -->
+                        <div class="dropdown">
+                            <button class="dropbutton">Janki</button>
+                            <i id="jbtn" data-feather="chevron-down"></i>
+                            <div class="dropdown-content">
+                                <a class="details" href="#">Profile</a>
+                                <a class="details" href="#">Reviews</a>
+                                <a class="details" href="#">Settings</a>
+                                <a class="details" href="#">Logout</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                </nav>
+                <!-- Zomato bold name -->
+                <img class="name" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png">
+                <!-- description -->
+                <h1 id="heading">Discover the best food & drinks in Ludhiana</h1>
+                <!-- search bar -->
+                <div class="search_container">
+                    <div class="location">
+                        <i id="searchicon"data-feather="map-pin"></i>
+                        <input placeholder="Patel Nagar,Green Park" class="location-input">
+                        <i id="chevron" data-feather="chevron-down"></i>
+                    </div>
+                <div class="line"></div>
+                <div class="search">
+                    <i class="search_icon" data-feather="search"></i>
+                    <input placeholder="Search for resturant, cuisine or a dish" class="search-box" value="">
+                </div>
+                </div>
+            </header>
+            <script>
+                feather.replace();
+              </script>
+        </div>
+        <main>
+            <section class="main-body">
+                <div class="options">
+                    <div class="option1">
+                        <div class="image2">
+                            <img src="images/option1.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="info-title">Order Online</div>
+                            <div class="info-description">Stay home and order on your doorstep</div>
+                        </div>
+                    </div>
+                    <div class="option2">
+                        <div class="image3">
+                            <img src="images/option2.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
