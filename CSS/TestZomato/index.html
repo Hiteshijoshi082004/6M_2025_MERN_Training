@@ -4,31 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zomato</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/Zomato_logo.png">
-    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <!-- Main div -->
-    <div class="main">
-        <!-- Img div -->
-        <div class="image">
-            <header>
-                <!-- top information -->
-                <nav class="nav1">
-                <!-- links -->
-                <a class="app" href="#">Get the App</a>
+    <div class="container">
+        <!-- HEADER START -->
+        <header class="header">
+            <!-- NAV STARTS -->
+            <nav>
+                <a href="#"><i class="bi bi-phone"></i> Get the App</a>
                 <ul>
                     <li><a href="#">Investor Relations</a></li>
-                    <li><a href="#">Add Resturant</a></li>
+                    <li><a href="#">Add Restaurants</a></li>
                     <li>
-                        <img src="images/letter-j.png">
-                    </li>
-                    <li>
-                        <!-- dropdown of janki profile -->
                         <div class="dropdown">
+                            <div><img src="images/letter-j.png" alt=""></div>
                             <button class="dropbutton">Janki</button>
-                            <i id="jbtn" data-feather="chevron-down"></i>
                             <div class="dropdown-content">
                                 <a class="details" href="#">Profile</a>
                                 <a class="details" href="#">Reviews</a>
@@ -38,50 +31,51 @@
                         </div>
                     </li>
                 </ul>
-                </nav>
-                <!-- Zomato bold name -->
-                <img class="name" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png">
-                <!-- description -->
-                <h1 id="heading">Discover the best food & drinks in Ludhiana</h1>
-                <!-- search bar -->
-                <div class="search_container">
-                    <div class="location">
-                        <i id="searchicon"data-feather="map-pin"></i>
-                        <input placeholder="Patel Nagar,Green Park" class="location-input">
-                        <i id="chevron" data-feather="chevron-down"></i>
+                <i class="bi bi-list menu-icon"></i>
+            </nav>
+            <!-- NAV-BAR ENDS -->
+            <!-- INNER-BANNER STARTS -->
+            <div class="inner-banner">
+                <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png">
+                <h1 class="discover">Discover the best food & drinks in Ludhiana</h1>
+                <div class="search-box">
+                    <div class="icon-container">
+                        <i class="fa-solid fa-location-dot"></i>
                     </div>
-                <div class="line"></div>
-                <div class="search">
-                    <i class="search_icon" data-feather="search"></i>
-                    <input placeholder="Search for resturant, cuisine or a dish" class="search-box" value="">
+                    <select>
+                        <option selected disabled>Patel Nagar, Green Park</option>
+                    </select>
+                    <div class="vr">|</div>
+                    <div class="search"><i class="bi bi-search"></i></div>
+                    <input placeholder="Search for Restaurants, dishes or Cuisines">
                 </div>
-                </div>
-            </header>
-            <script>
-                feather.replace();
-              </script>
-        </div>
-        <main>
-            <section class="main-body">
-                <div class="options">
-                    <div class="option1">
-                        <div class="image2">
-                            <img src="images/option1.jpg" alt="">
-                        </div>
-                        <div class="info">
-                            <div class="info-title">Order Online</div>
-                            <div class="info-description">Stay home and order on your doorstep</div>
-                        </div>
+            </div>
+            <!--INNER-BANNER ENDS -->
+        </header>
+        <!-- HEADER ENDS -->
+        <!-- SECTION STARTS -->
+        <section class="section-A">
+        <!-- FIRST TAB -->
+            <div class="container container-feature">
+                <div class="features">
+                    <div class="features-image">
+                        <img src="images/option1.jpg"/>
                     </div>
-                    <div class="option2">
-                        <div class="image3">
-                            <img src="images/option2.jpg" alt="">
-                        </div>
-                        
-                    </div>
+                    <h3>order online</h3>
+                    <p>stay home and order to your doorstep</p>
                 </div>
-            </section>
-        </main>
+         <!-- SECOND TAB -->
+                <div class="features">
+                    <div class="features-image">
+                        <img src="images/option2.jpg"/>
+                    </div>
+                    <h3>Dining</h3>
+                    <p>View the city's favorite dining values</p>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION ENDS -->
     </div>
+    <script src="https://kit.fontawesome.com/f59725943f.js" crossorigin="anonymous"></script>
 </body>
 </html>

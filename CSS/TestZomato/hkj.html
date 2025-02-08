@@ -1,0 +1,79 @@
+<!-- <div class="search-box">
+    <div class="icon-container">
+        <i class="bi bi-geo-alt"></i>
+    </div>
+    <select>
+        <option selected disabled>Patel Nagar, Green Park</option>
+    </select>
+    <div class="vr">|</div>
+    <input placeholder="Search for Restaurants, dishes or Cuisines">
+</div> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Search Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 10px;
+            border-radius: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+        }
+        .location {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-right: 1px solid #ccc;
+        }
+        .location i {
+            color: red;
+            margin-right: 5px;
+        }
+        .location select {
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+        .search-container input {
+            border: none;
+            outline: none;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+        }
+        .search-container i {
+            margin: 0 10px;
+            color: gray;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="search-container">
+        <div class="location">
+            <i class="fas fa-map-marker-alt"></i>
+            <select>
+                <option>Patel Nagar, Green Park</option>
+            </select>
+        </div>
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+    </div>
+</body>
+</html>
