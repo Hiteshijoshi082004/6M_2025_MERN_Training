@@ -145,7 +145,11 @@ li{
         transform: translateX(-50px);
     }
 }
-
+@media screen and (max-width:576px){
+    .solute{
+        height: 35rem;
+    }
+}
 @media screen and (max-width:680px){
     .main-head{
         font-size: 2.8rem;
