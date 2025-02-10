@@ -41,7 +41,6 @@ li{
     width: 3rem;
 }
 .navbar{
-    /* background-color: rgb(0, 255, 166); */
     --bs-emphasis-color-rgb: 255, 255, 255;
 }
 .color1{
@@ -96,13 +95,17 @@ li{
     padding-block: 4rem;
 }
 .section-container2{
-    padding-block:3rem;
+    padding-block:2rem;
 }
 .section-container3{
     padding-block:2rem;
 }
 .skill{
     font-family: "Merriweather Sans", serif;
+}
+.carousel-item img{
+    height: 500px;
+    width: 400px;
 }
 .card{
     background-color: rgb(65, 71, 92) !important;
@@ -115,7 +118,10 @@ li{
     text-decoration: none;
 }
 .A{
-    background-color:rgb(223, 217, 217);
+    background-color:rgb(192, 184, 184);
+}
+.solute{
+    height: 28.6rem;
 }
 .firstanimate{
     animation: demp1 2s  ease-in-out ;
@@ -143,5 +149,13 @@ li{
 @media screen and (max-width:680px){
     .main-head{
         font-size: 2.8rem;
+    }
+    .soze{
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width:992px){
+    .soze{
+        padding-top: 40px;
     }
 }
