@@ -126,6 +126,10 @@ li{
 .firstanimate{
     animation: demp1 2s  ease-in-out ;
 }
+footer .container-fluid{
+    background-color: #854fee;
+    height: 2rem;
+}
 @keyframes demp1{
     from{
         transform: translateX(-500px);
