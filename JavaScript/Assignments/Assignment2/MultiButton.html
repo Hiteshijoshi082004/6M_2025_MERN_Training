@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multi-Button Task</title>
+    <style>
+        .btn {
+            margin-left: 9rem;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 100px; background-color: red;">
+        <input  id="input1" style= "margin-top: 40px;  margin-left: 50rem;">
+        <br>
+        <input  id="input2" style="margin-left: 30rem;">
+    </div>
+    <div style="height: 9rem; background-color: aqua;">
+        <button type="button" class="btn" onclick="getName()">button1</button>
+        <button type="button" class="btn" onclick="getMsg()">button2</button>
+        <button type="button" class="btn" onclick="getMsg2()">button3</button>
+        <button type="button" class="btn" onclick="getMsg3()">button4</button>
+        <button type="button" class="btn" onclick="showChange()">button5</button>
+    </div>
+    <div style="height: 350px; background-color: red;  display:flex; gap:13rem;">
+    <div id="div1" style="height: 230px; width: 300px; background-color: white; margin: 2rem; margin-left: 13rem;">HELLO</div>
+    <div id="div2" style="height: 230px;width: 300px; background-color: white; margin: 2rem;">BYE</div>
+</div>
+
+    <script>
+        
+        function getName() {
+            var name = document.getElementById("input2").value 
+            document.getElementById("input1").value = name
+        }
+
+        function getMsg() {
+            var name = document.getElementById("input2").value
+            alert(name)
+            alert("HELLO")
+            alert("Bye")
+        }
+        function getMsg2() {
+            var name = document.getElementById("input2").value
+            document.getElementById("div2").innerHTML = name
+        }
+        function getMsg3() {
+            var name = document.getElementById("input2").value
+            document.getElementById("div1").innerHTML = `hello ${name} ${name}`
+        }
+
+        function showChange(){
+            document.getElementById("input2").type = "radio"
+            document.getElementById("input1").type = "checkbox"
+            document.getElementById("div2").style.backgroundImage = "url('download.jpg')"   
+        }    
+    </script>
+</body>
+</html>
