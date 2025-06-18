@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="getNav()">Get nav</button>
+    <script>
+        function getNav(){
+            navigator.geolocation.getCurrentPosition((x)=>{
+                console.log(x.coords);
+                console.log(x.coords.latitude);
+                console.log(x.coords.longitude);
+            })
+        }
+    </script>
+</body>
+</html>
