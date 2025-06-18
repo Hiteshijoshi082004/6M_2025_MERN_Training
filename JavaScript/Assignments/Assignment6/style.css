@@ -10,8 +10,8 @@ body{
 .main{
      text-align: center;
     background-color: rgba(231, 157, 97, 0.7);
-    margin-top: -10px;
-    color: rgb(127, 84, 4);
+    margin-top: 140px;
+    color: rgb(20, 19, 19);
 }
 
 #head1{
@@ -24,14 +24,14 @@ width: 30rem;
    width: 30rem;
 }
 #hours{
-    height: 30px;
+    height: 10px;
     width:30rem;
 } 
 #minutes{
-    height: 30px;
+    height: 10px;
     width: 30rem;
 }
 #seconds{
-    height: 30px;
+    height: 20px;
     width: 30rem;
 }
