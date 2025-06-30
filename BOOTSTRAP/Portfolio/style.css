@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:1px solid white; */
+}
+li{
+    list-style: none;
+}
+.img-fluid{
+    width: 12vw;
+}
+.navbar-nav .nav-link{
+    font-weight: 600;
+    color: var(--c-dark);
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color:white;
+}
+.navbar-nav .nav-link:hover{
+    text-decoration: underline;
+    color:#854fee !important;
+}
+.btn{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white !important;
+    background-color: #854fee !important;
+    margin-left: 15px;
+}
+.btn:hover{
+    border: 2px solid #854fee !important;
+    background-color: white !important;
+    color: #854fee !important;
+    font-weight: bolder !important;
+}
+.navbar-toggler-icon{
+    background-color: white;
+    width: 3rem;
+}
+.navbar{
+    --bs-emphasis-color-rgb: 255, 255, 255;
+}
+.color1{
+    color:#854fee !important;
+    font-weight: bolder;
+}
+.color2{
+    color:rgb(195, 199, 192);
+}
+.image-container{
+    width: 25rem;
+    aspect-ratio: 1;
+    border-radius: 15%;
+    background-image: url("images/1.jpg");
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    box-shadow: 
+    0 0 1rem white, 
+    0 0 7rem #854fee,
+    inset 0 0 2rem #854fee;
+}
+.hero-section{
+    min-height: 85vh;
+}
+.main-head{
+    font-size: 4.3rem;
+    font-family: "Merriweather Sans", serif;
+}
+.para{
+    max-width: 500px;
+}
+.image2-container{
+    width: 25rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border-top: 1rem solid white;
+    border-bottom: 1rem solid white;
+    background-image: url("images/WhatsApp\ Image\ 2025-02-09\ at\ 16.50.57_2d4151ea.jpg");
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    box-shadow: 
+    0 0 1rem white, 
+    0 0 7rem #854fee,
+    inset 0 0 2rem #854fee;
+}
+.abt-color{
+    color:#854fee;
+}
+.section-container{
+    padding-block: 4rem;
+}
+.section-container2{
+    padding-block:2rem;
+}
+.section-container3{
+    padding-block:2rem;
+}
+.skill{
+    font-family: "Merriweather Sans", serif;
+}
+.carousel-item img{
+    height: 500px;
+    width: 400px;
+}
+.card{
+    background-color: rgb(65, 71, 92) !important;
+    box-shadow: 
+    0 0 2rem #854fee,
+    inset 0 0 0.5rem #854fee;
+    border:1px solid black !important;
+}
+.card-title{
+    text-decoration: none;
+}
+.A{
+    background-color:rgb(192, 184, 184);
+}
+.solute{
+    height: 28.6rem;
+}
+.firstanimate{
+    animation: demp1 2s  ease-in-out ;
+}
+footer .container-fluid{
+    background-color: #854fee;
+    height: 2rem;
+}
+@keyframes demp1{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(50px);
+    }
+}
+.secondanimate{
+    animation: demp2 2s ease-in-out ;
+}
+@keyframes demp2{
+    from{
+        transform: translateX(900px);
+    }
+    to{
+        transform: translateX(-50px);
+    }
+}
+@media screen and (max-width:576px){
+    .solute{
+        height: 35rem;
+    }
+}
+@media screen and (max-width:680px){
+    .main-head{
+        font-size: 2.8rem;
+    }
+    .soze{
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width:992px){
+    .soze{
+        padding-top: 40px;
+    }
+}

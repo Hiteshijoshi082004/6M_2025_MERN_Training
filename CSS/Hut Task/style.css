@@ -1,0 +1,52 @@
+.main{
+    height:70px;
+    width:70px;
+}
+.sun{
+    margin-top:10px;
+    background-color: yellow;
+    margin-left:450px;
+    margin-top:30px;
+    border:solid 2px black;
+    border-radius:50px;
+}
+.triangle{
+    height: 0;
+    width: 0;
+    border-bottom: 130px brown solid;
+    border-left:130px transparent solid;
+    border-right:130px transparent solid;
+    margin-top:50px;
+    margin-left:550px;
+}
+.container{
+    background-color: lightblue;
+    height: 180px;
+    position: relative;
+    width: 260px;
+    margin-left:550px;
+    margin-top:30px;
+    border: solid black 2px;
+}
+.small-rectangle {
+    width: 50px; 
+    height: 50px; 
+    background-color: white; 
+    border: 2px solid black; 
+    position: absolute; 
+    margin-top: 10px; 
+    margin-left: 50%; 
+    transform: translateX(-50%);
+  }
+  
+.large-rectangle {
+    width: 60px; 
+    height: 80px; 
+    background-color: none; 
+    border: 2px solid black; 
+    position: absolute;
+    bottom:-13px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+  

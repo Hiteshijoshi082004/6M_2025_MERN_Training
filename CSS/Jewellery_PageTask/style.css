@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainimage{
+    height: 730px;
+    background: url("images/bgimg.jpg") no-repeat center/cover;
+}
+.brand{
+    color:#aa7f3b;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav{
+    height:50px;
+    background-color: white;
+    border: 10px solid transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:black;
+    padding-right:15px;
+    font-size:17px;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: end;
+}
+.nav ul li a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+#button{
+    height:40px;
+    width: 130px;
+    font-size: 19px;
+    color:white;
+    background-color: orange;
+    border-color: orange;
+    position: absolute;
+    top:600px;
+    left:620px;
+}
+#button:hover{
+    text-shadow: 0px 3px 8px rgb(167, 85, 8);
+}
+.second{
+    height:590px;
+    background-color: rgb(243, 240, 240);
+}
+#heading1{
+    color:#aa7f3b;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+#para1{
+    text-align: center;
+    padding: 10px;
+}
+.common{
+    color:#aa7f3b;
+    font-size: 23px;
+    font-family:Comic Sans MS;
+    font-weight: bold;
+    text-align: center;
+}
+.common img{
+    padding-top: 10px;
+    height:250px;
+    width: 250px;
+}
+.necklaces{
+    margin-top: 16px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 300px 300px  300px;
+    grid-template-rows: 300px 300px 300px;
+    column-gap: 80px;
+    row-gap: 10px;
+    height: 400px;
+    margin-left:40px;
+}
+.details{
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top:-22px;
+}
+.prices{
+    font-family: none;
+    font-weight: normal;
+    text-align: center;
+    color: #aa7f3b;
+    margin-top: 40px;
+}
+.addbutton{
+    border-color: #f78f10;
+    background-color:#f78f10 ;
+    color:white;
+    margin-top: 10px;
+    height:40px;
+    width: 80px;
+}
+.addbutton:hover{
+    background-color:  rgb(167, 85, 8);
+    cursor: pointer;
+}
+.fixedimage{
+    background:url("images/bg-header.jpg") no-repeat center/cover fixed;
+    height: 400px;
+    border: none;
+}
+.internal{
+    height:400px;
+    background-color: rgb(174, 137, 82,0.6);
+}
+.aboutus{
+    height:400px;
+    border:15px solid transparent;  
+}
+.aboutus h1{
+    text-align: center;
+    color:#ba7d1a;
+    text-shadow: 3px 3px 6px #edcb85;
+    font-size:36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.client{
+    height:150px;
+    background-color: #ba7d1a;
+    border:10px solid transparent;
+}
+.client h2{
+    margin-top: -40px;
+    text-align: center;
+    color:white;
+    font-family: arial;
+    font-size:34px;
+}
+.client p{
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+    font-size: 17px;
+}
+.end{
+    height:60px;
+    border:10px solid transparent;
+    font-family: arial;
+    text-align: center;
+}
+.end h4{
+    color:#aa7f3b;
+    padding:2px;
+}
+.grid{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 700px;
+    row-gap:2px;
+    grid-template-rows: 70px 70px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid img{
+    height:270px;
+    margin-top:-220px;
+    margin-left: 740px;
+}
+mark{
+    background-color: rgb(219, 217, 217);
+}
+.grid .para{
+    word-spacing: 3px;
+}
+.client #comma1{
+    text-align: right;
+    margin-right: 100px;
+    font-family: arial;
+    font-size: 60px;
+    color:#ddbe91;
+}
+.client #comma2{
+    text-align: left;
+    margin-left: 70px;
+    font-family: arial;
+    font-size: 60px;
+    color:#ddbe91;
+}

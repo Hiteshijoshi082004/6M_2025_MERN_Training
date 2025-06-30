@@ -1,0 +1,27 @@
+/*Tag Name Selector*/
+p{
+    color:crimson;
+    font-size:50px;
+}
+/*Universal Selector*/
+*{
+    margin:0;
+    padding:0;
+}    
+/*ID Selector*/
+#para-1{
+    color:darkorange;
+    font-size:20px;
+}
+#para-1:hover{
+    color:darkmagenta;
+}
+#para-2{
+    color:olive;
+    font-size:20px;
+}
+/*Class Selector*/
+.paras{
+    color:rgb(20, 50, 220);
+    font-size:15px;
+}

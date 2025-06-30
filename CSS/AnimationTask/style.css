@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+    filter: brightness(0);
+    animation: brightnessEffect 3s infinite normal;
+}
+@keyframes brightnessEffect{
+    0%{
+        filter:brightness(0%);
+    }
+    100%{
+        filter:brightness(150%);
+    }
+}
+.image-container{
+    height:606px ;
+    width:606px ;
+}
+.mountains{
+    height: 606px;
+    width: 1365px;
+    display: block;
+    /* filter: brightness(0);
+    animation: brightnessEffect 3s infinite normal; */
+}
+/* @keyframes brightnessEffect{
+    0%{
+        filter:brightness(0%);
+    }
+    100%{
+        filter:brightness(150%);
+    }
+} */
+.cloud1{
+    height:250px;
+    width: 400px;
+    position: absolute;
+    top:-40px;
+    animation: leftcloud 3s 0s infinite ease-in-out;
+}
+@keyframes leftcloud{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translate(150px) ;
+    }
+}
+.cloud2{
+    height:250px;
+    width: 400px;
+    position: absolute;
+    top:-40px;
+    left:950px;
+    animation: rightcloud 3s 0s infinite ease-in-out;
+}
+@keyframes rightcloud{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translate(-150px) ;
+    }
+}
+.sun{
+    height:100px;
+    width: 100px;
+    background:radial-gradient(orange, yellow,red);
+    border:2px solid transparent;
+    border-radius: 50%;
+    margin-left: 635px;
+    margin-top:-500px;
+    position: absolute;
+    z-index: -1;
+    animation:sunrise 3s 0s infinite normal;
+}
+@keyframes sunrise{
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform: translateY(-30px);
+    }
+}

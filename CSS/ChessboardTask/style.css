@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(129, 199, 223);
+}
+.mainbox{
+    height:640px;
+    width:640px;
+    background-color:rgb(204, 35, 35);
+    border:25px solid grey;
+    margin-left:250px;
+    margin-right:250px;
+}
+.row1{
+    height:80px;
+}
+.black{
+    height:80px;
+    width:80px;
+    background-color: black;
+    float:left;
+}
+.white{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    float:left;
+}

@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.main1{
+    height: 610px;
+    background-size:cover;
+    background-image: url("images/first.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+
+}
+#head1{
+    text-align: center;
+    background-color: rgb(221, 93, 118, 0.6);
+    color:black;
+    font-family: "Satisfy", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-shadow: 6px 10px 7px #ffffff;
+}
+#para1{
+    margin-top: 240px;
+    background-color:rgb(255, 255, 255,0.4);
+    font-family: "Satisfy", serif;
+    font-weight: 550;
+    font-size: 25.4px;
+    font-style: normal;
+
+}
+.main2{
+    height: 608px;
+    background-image:url("images/second.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.common #type1{
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 490;
+    font-size: 38px;
+    font-style: normal;
+    color:rgb(20, 83, 220);
+    text-shadow:3px 3px 10px rgb(129, 130, 100);
+}
+.common #para2{
+    font-family: "Satisfy", serif;
+    font-weight: 550;
+    font-size: 25.4px;
+    font-style: normal;
+    background: linear-gradient(rgb(47, 176, 180, 0.21), rgb(187, 142, 142));
+    display: justify;
+}
+.side{ 
+    background-image: url("images/freepik__upload__6626.png");
+    height: 610px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-transform:uppercase ;
+    text-align: center;
+    padding: 250px;
+    padding-left:330px;
+    color:white;
+    text-shadow: 10px 10px 9px rgb(7, 132, 93);
+}
+img{
+    margin-left:0.5px;
+}
+#las1{
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
