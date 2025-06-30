@@ -1,0 +1,16 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color:cornsilk;
+    }
+    input, button {
+      padding: 8px;
+      margin: 5px;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      display: inline-block;
+      border: 2px solid black;
+    }

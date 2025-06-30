@@ -1,0 +1,31 @@
+body{
+    background-color: beige;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 7rem;
+}
+.div{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 480px;
+    margin-left: 20px;
+}
+h2{
+    margin-top: 2rem;
+}
+#input1{
+    padding: 9px;
+    border-radius: 4%;
+}
+.btn{
+    margin-left: 2.6rem;
+    height:45px;
+    width: 80px;
+}
+#data{
+    margin-top: 2rem;
+}

@@ -1,0 +1,26 @@
+label{
+    margin: 8rem;
+    font-size: large;
+}
+input{
+    margin: 3px;
+}
+#height{
+    margin-left: 25px;
+}
+#width{
+    margin-left: 32px;
+}
+#color{
+    margin-left: 35px;
+}
+#text{
+    margin-left: 38px;
+}
+#bg{
+    margin-left: 15px;
+}
+#maindiv{
+    margin: 40px;
+    text-align: center;
+}

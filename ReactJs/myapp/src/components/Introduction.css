@@ -1,0 +1,6 @@
+.class-box{
+    border-left: 8px solid rgb(30, 3, 93);
+    color:white;
+    background-color: red;
+    border-radius: 10%;
+}

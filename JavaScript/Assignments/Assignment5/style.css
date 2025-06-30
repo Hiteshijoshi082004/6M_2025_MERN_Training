@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+
+}
+.common{
+    background-color: blueviolet;
+    color: white;
+}
+body{
+    background-color: rgba(169, 227, 83, 0.8);
+}

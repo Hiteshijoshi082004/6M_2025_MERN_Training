@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="setInterval(printMsg,1000)">direct</button>
+    <button onclick="getMsg()">indirectly</button>
+    <button onclick="stop()">clear</button>
+    <button onclick="getName()">print once</button>
+    <button onclick="stopTime()">clear setTimeout</button>
+<script>
+    // direct
+    function printMsg(){
+        console.log("Hello");
+    }
+// indirect
+    function getMsg(){
+        x = setInterval(()=>{
+            console.log("Hiteshi joshi");
+        },2000)
+    }
+    function stop(){
+        clearInterval(x)
+    }
+    function getName(){
+        y = setTimeout(() => {
+            console.log("Janki");
+            
+        }, 2000);
+    }
+    function stopTime(){
+        clearTimeout(y)
+    }
+</script>
+</body>
+</html>

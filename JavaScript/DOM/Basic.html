@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="getMsg()">Click me</button>
+    <h1 id ="head1"></h1>
+    <script>
+        function getMsg(){
+            // alert("Hello user!")
+            
+            // let result =confirm("Do you want to exit this page")
+            // console.log(result);
+            // if(result==true){
+            //     alert("Bye")
+            // }
+
+            let name = prompt("enter your name")
+            console.log(name);
+            // document.getElementById("head1").innerText = "<u>"+name+"</u>"
+               document.getElementById("head1").innerHTML = `<u>${name}</u>`            
+        }
+    </script>
+</body>
+</html>

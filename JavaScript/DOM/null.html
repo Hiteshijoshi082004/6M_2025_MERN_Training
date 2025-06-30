@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="submit.html" onsubmit="return validateForm()" novalidate>
+        <label for="">Name</label>
+        <input id="name" type="text" required>
+        <span  id="error"></span>
+        <br>
+        <button>submit</button>
+    </form>
+    <script>
+        function validateForm(){
+            var name= document.getElementById("name").value
+            if(name.trim()==""){
+                document.getElementById("error").innerHTML="Please fill this field!!"
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
