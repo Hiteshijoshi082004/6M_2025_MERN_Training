@@ -1,7 +1,7 @@
 function Employee(props){
     return(
         <>
-        <table border="2px">
+        <table border="2px" className="table table-bordered">
             <tr>
                 <th>Employee Name</th>
                 <th>Join year</th>
