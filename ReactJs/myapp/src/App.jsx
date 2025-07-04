@@ -2,6 +2,7 @@ import City from "./components/City"
 import Contactcard from "./components/Contactcard"
 import Employee from "./components/Employee"
 import Employeedata from "./components/Employeedata"
+import Game from "./components/Game"
 import Introduction from "./components/Introduction"
 import Productcard from "./components/Productcard"
 import Shoppingcart from "./components/Shoppingcart"
@@ -67,6 +68,9 @@ function App(){
     <hr />
     <h2 style={{ backgroundColor:"darkorchid", color:"white" , textAlign:"center", textDecoration:"underline"}}>ZOMATO DATA </h2>
     <Zomato/>
+    <hr/>
+    <h2 style={{ backgroundColor:"maroon", color:"white" , textAlign:"center", textDecoration:"underline"}}>GAME</h2>
+    <Game/>
     </>
   )
 }

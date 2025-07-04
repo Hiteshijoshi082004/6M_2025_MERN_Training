@@ -6,7 +6,7 @@ function Student(){
         {name:"Pranjal", class:"12th A", Rollno:"45"},
         {name:"Kartik", class:"12th C", Rollno:"32"},
         {name:"Mohit", class:"12th B",Rollno:"44"},
-        {name:"Vishal", class:"12th C",Rollno:"06s"} 
+        {name:"Vishal", class:"12th C",Rollno:"06"} 
     ]
     return(
         <>
