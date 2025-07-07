@@ -45,7 +45,7 @@ function Game(){
             </div>
             <div className="row">
                 <div className="col-md-12">
-                    {isGameStart==true?
+                    {isGameStart==true? 
                         <>
                         <p className="text-center text-primary mt-3">Game starts now!!</p>
                         <p style={{color:"white"}}>Turn{turn}</p>
